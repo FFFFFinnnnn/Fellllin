@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Neural Painting</title>
+    <link rel='stylesheet' href='https://preview.cruip.com/solid/dist/css/style.css'>
+    <link rel="shortcut icon" href="https://img.icons8.com/bubbles/20/000000/deathly-hallows.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-inner">
+                <div class="hero-copy">
+                    <h1 class="hero-title mt-0">Neural Painting</h1>
+                    <p class="hero-paragraph">painting using artificial intelligence technology for a better future in the arts</p>
+                    <div class="information">
+                        <a href="https://github.com/slowy07/neuralPainting"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+                        <a href="pytorch"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white"></a>
+                        <a href=""><img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"></a>
+                        <a href=""><img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white"></a>
+                        <a href="https://saweria.co/slowy07"><img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white"></a>
+                    </div>
+                    <div class="hero-cta"><a class="button button-primary" href="https://colab.research.google.com/drive/1N7VyYRvCUEZvK_qbiWu_YC1QCP01E9Wb?usp=sharing" target="_blank">Test Demo</a>
+                        <div id="player" class="mt-32">
+                            <span class="player-info">Confuse??,Move the slider to control the animation or <a id="run-trigger" href="#0">restart</a></span>
+                            <input class="progress" step=".001" type="range" min="0" max="100" value="0">
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-figure anime-element">
+                    <svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
+					<rect width="528" height="396" style="fill:transparent;" />
+				</svg>
+                    <div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>
+                    <div class="hero-figure-box hero-figure-box-02" data-rotation="-45deg"></div>
+                    <div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>
+                    <div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>
+                    <div class="hero-figure-box hero-figure-box-05"></div>
+                    <div class="hero-figure-box hero-figure-box-06"></div>
+                    <div class="hero-figure-box hero-figure-box-07"></div>
+                    <div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
+                    <div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
+                    <div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src='https://unpkg.com/animejs@3.0.1/lib/anime.min.js'></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

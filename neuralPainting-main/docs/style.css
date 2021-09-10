@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Poppins:wght@200;400&display=swap');
+
+.hero {
+  padding-top: 224px;
+  overflow: hidden;
+}
+
+h1{
+  font-family: 'Caveat Brush', cursive;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+#player span {
+  display: block;
+}
+#player .player-info {
+  font-size: 14px;
+}
+.information{
+  display: flex;
+  margin: 0 0 13px;
+}
+
+input.progress {
+  cursor: ew-resize;
+}
+
+input.progress[value] {
+  position: relative;
+  width: 100%;
+  height: 27px;
+  -webkit-appearance: none;
+  background-color: transparent;
+  color: #0270D7;
+}
+
+input.progress[value]:focus {
+  outline: none;
+}
+
+input.progress[value]:after {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+}
+
+input.progress[value]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: currentColor;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
